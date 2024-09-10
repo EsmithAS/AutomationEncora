@@ -1,6 +1,7 @@
 #language: es
 Característica: Registrar usuario en la web Parabank
 
+  @RegistrarUsuario
   Esquema del escenario: Registrar un nuevo usuario en la web Parabank
     Dado que inicio sesion en la pagina Parabank
     Y doy clic en registrarme
@@ -10,7 +11,7 @@ Característica: Registrar usuario en la web Parabank
     Y completo los datos de la cuenta
       | username   | password   | confirm   |
       | <username> | <password> | <confirm> |
-    Cuando doy clic en el botón registrar
+    Cuando doy clic en el boton registrar
     Entonces valido que aparezca el mensaje "Your account was created successfully. You are now logged in."
     E inicio sesion con los datos de la cuenta
     Ejemplos:
