@@ -43,7 +43,7 @@ mvn install
 
 ### Ejecución
 
-La clase `RunnerTest` está configurada correctamente para que ejecute el test con el tag `@RegistrarUsuario`. A continuación se muestra un ejemplo de cómo luce:
+La clase ***RunnerTest*** está configurada correctamente para que ejecute el test con el tag ***@RegistrarUsuario***. A continuación se muestra un ejemplo de cómo luce:
 
 ```java
 @RunWith(Cucumber.class)
