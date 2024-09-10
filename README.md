@@ -63,6 +63,6 @@ public class RunnerTest {
 - ***El feature se ubica en la siguiente ruta***:
   `src/test/resources/features/Register.feature`
 
-## Autores ✒️
+## Autor ✒️
 
 * **Esmith Alama Sanchez** - *QA Automation* - [EsmithAS](https://github.com/EsmithAS)
